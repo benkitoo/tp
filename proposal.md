@@ -2,7 +2,8 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* 54757 - Marin, Benjamin
+* 53799 - Salas, Valentino
 
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
@@ -11,7 +12,7 @@
 
 ## Tema
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Plataforma digital dedicada a la venta, alquiler y suscripción mensual de videojuegos, que permite a los usuarios acceder a un amplio catálogo actualizado de títulos para PC. La plataforma se enfoca en ofrecer una experiencia simple y rápida con múltiples métodos de pago y disponibilidad inmediata. Además, busca generar una comunidad activa de usuarios mediante reseñas, valoraciones y beneficios exclusivos para suscriptores, posicionándose como una opcion asequible para todo tipo de usuario gaming.
 
 ### Modelo
 ![imagen del modelo]()
