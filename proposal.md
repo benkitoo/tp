@@ -12,7 +12,7 @@
 
 ## Tema
 ### Descripción
-Plataforma digital dedicada a la venta, alquiler y suscripción mensual de videojuegos, que permite a los usuarios acceder a un amplio catálogo actualizado de títulos para PC. La plataforma se enfoca en ofrecer una experiencia simple y rápida con múltiples métodos de pago y disponibilidad inmediata. Además, busca generar una comunidad activa de usuarios mediante reseñas, valoraciones y beneficios exclusivos para suscriptores, posicionándose como una opcion asequible para todo tipo de usuario gaming.
+Plataforma digital dedicada a la venta, alquiler por dias y suscripción mensual de videojuegos, que permite a los usuarios acceder a un amplio catálogo actualizado de títulos para PC. La plataforma se enfoca en ofrecer una experiencia simple y rápida con múltiples métodos de pago y disponibilidad inmediata. Además, busca generar una comunidad activa de usuarios mediante reseñas, valoraciones y beneficios exclusivos para suscriptores, posicionándose como una opcion asequible para todo tipo de usuario gaming.
 
 ### Modelo
 ![imagen del modelo]()
@@ -28,18 +28,17 @@ Plataforma digital dedicada a la venta, alquiler y suscripción mensual de video
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Categoria<br>2. CRUD Usuario<br>3.
+|CRUD dependiente|1. CRUD Videojuego {depende de} CRUD Categoria<br>2. CRUD Suscripcion {depende de} CRUD Usuario|
+|Listado<br>+<br>detalle| 1. Listado de videojuegos filtrado por genero, muestra nombre, descripción y genero => detalle CRUD Videojuego<br>|
+|CUU/Epic|1. Explorar el catalogo de videojuegos<br>2. Adquirir el videojuego o suscripción|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
-
+|CRUD |1. CRUD Categoria<br>2. CRUD Usuario<br>3. CRUD Categoria<br>4. CRUD Suscripcion<br>5. CRUD Alquiler<br>6. CRUD Venta<br>7. CRUD Biblioteca|
+|CUU/Epic|1. |CUU/Epic|1. Explorar el catalogo de videojuegos<br>2. Adquirir el videojuego o suscripción|
 
 ### Alcance Adicional Voluntario
 
@@ -50,4 +49,3 @@ Adicionales para Aprobación
 |Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
 |CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
 |Otros|1. Envío de recordatorio de reserva por email|
-
