@@ -15,7 +15,7 @@
 Plataforma digital dedicada a la venta, alquiler por dias y suscripción mensual de videojuegos, que permite a los usuarios acceder a un amplio catálogo actualizado de títulos para PC. La plataforma se enfoca en ofrecer una experiencia simple y rápida con múltiples métodos de pago y disponibilidad inmediata. Además, busca generar una comunidad activa de usuarios mediante reseñas, valoraciones y beneficios exclusivos para suscriptores, posicionándose como una opcion asequible para todo tipo de usuario gaming.
 
 ### Modelo
-![imagen del modelo]()
+https://ibb.co/JjjXn1Cx
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
@@ -28,17 +28,17 @@ Plataforma digital dedicada a la venta, alquiler por dias y suscripción mensual
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Categoria<br>2. CRUD Usuario<br>3.
+|CRUD simple|1. CRUD Categoria<br>2. CRUD Usuario
 |CRUD dependiente|1. CRUD Videojuego {depende de} CRUD Categoria<br>2. CRUD Suscripcion {depende de} CRUD Usuario|
 |Listado<br>+<br>detalle| 1. Listado de videojuegos filtrado por genero, muestra nombre, descripción y genero => detalle CRUD Videojuego<br>|
-|CUU/Epic|1. Explorar el catalogo de videojuegos<br>2. Adquirir el videojuego o suscripción|
+|CUU/Epic|1. Adquirir el videojuego o suscripción|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoria<br>2. CRUD Usuario<br>3. CRUD Categoria<br>4. CRUD Suscripcion<br>5. CRUD Alquiler<br>6. CRUD Venta<br>7. CRUD Biblioteca|
-|CUU/Epic|1. |CUU/Epic|1. Explorar el catalogo de videojuegos<br>2. Adquirir el videojuego o suscripción|
+|CRUD |1. CRUD Suscripcion<br>2. CRUD Alquiler<br>3. CRUD Venta<br>4. CRUD Biblioteca|
+|CUU/Epic|1. Publicar o subir un videojuego|
 
 ### Alcance Adicional Voluntario
 
