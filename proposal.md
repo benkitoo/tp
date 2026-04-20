@@ -31,14 +31,14 @@ Regularidad:
 |CRUD simple|1. CRUD Categoria<br>2. CRUD Usuario
 |CRUD dependiente|1. CRUD Videojuego {depende de} CRUD Categoria<br>2. CRUD Suscripcion {depende de} CRUD Usuario|
 |Listado<br>+<br>detalle| 1. Listado de videojuegos filtrado por genero, muestra nombre, descripción y genero => detalle CRUD Videojuego<br>|
-|CUU/Epic|1. Adquirir el videojuego o suscripción|
+|CUU/Epic|1. Publicar o subir un videojuego|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Suscripcion<br>2. CRUD Alquiler<br>3. CRUD Venta<br>4. CRUD Biblioteca|
-|CUU/Epic|1. Publicar o subir un videojuego|
+|CRUD |1. CRUD Suscripcion<br>2. CRUD Alquiler<br>3. CRUD Venta<br>4. CRUD Biblioteca<br>5. CRUD Desarrollador|
+|CUU/Epic|1. Adquirir el videojuego o suscripción|
 
 ### Alcance Adicional Voluntario
 
